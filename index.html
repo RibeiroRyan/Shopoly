@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopoly</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">SHOPOLY</a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#" class="first">Accueil</a></li>
+                <li><a href="#">Panier</a></li>                 <!--Bar de Navigation-->
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <img src="assets/css/img/menu-btn.png" alt="bouton de navbar" class="menu-boutons">
+    </nav>
+    <header></header>
+
+</body>
+    <script>
+    const menuBoutons = document.querySelector(".menu-boutons") 
+    const navLinks = document.querySelector(".nav-links") 
+    
+        menuBoutons.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</html>
