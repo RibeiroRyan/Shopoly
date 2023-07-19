@@ -100,7 +100,7 @@ header {
     border-radius: 5px;
 }
 
-.produit {
+.produit1 {
     position: absolute;
     right: 125px;
     width: 350px;
@@ -130,6 +130,8 @@ header {
     
     .navbar .menu-boutons {
         display: block;
+        position: absolute;
+        top: 40px;
     }
 
     .nav-links ul{
@@ -158,6 +160,22 @@ header {
         width: 100vw;
         background-image: url(img/landscape.jpg);
         background-size: 1950px;
+    }
+
+    .produit1 {
+        display: none;
+    }
+
+    .text1 {
+        position: absolute;
+        right: 100px;
+        top: 100px;
+        margin: 0;
+    }
+
+    .bouton-entrer {
+        position: absolute;
+        top: 10px;
     }
 
 }
