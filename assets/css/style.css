@@ -56,6 +56,53 @@ header {
     display: none;
 }
 
+.text1 {
+    position: relative;
+    color: rgb(255, 255, 255);
+    top: 150px;
+    left: 50px;
+    border: solid ;
+    background-color: rgba(75, 2, 32, 0.61);
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 0px;
+    display: flex;
+    width: fit-content;
+}
+
+.text2 {
+    position: relative;
+    color: rgb(255, 244, 244);
+    top: 200px;
+    left: 360px;
+    border: solid ;
+    background-color: rgba(75, 2, 32, 0.61);
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 0px;
+    display: flex;
+    width: fit-content; 
+}
+
+.bouton-entrer {
+    position: relative;
+    width: fit-content;
+    top: 300px;
+    color: white;
+    display: flex;
+    border: solid 1px;
+    padding: 10px;
+    left: 600px;
+    font-size: 2em;
+}
+
+.navbar .searchbar {
+    position: relative;
+    right: 300px;
+    border-radius: 20px;
+    font-size: 1em;
+    padding: 2px;
+}
 
 
 @media screen and (max-width: 900px) {
