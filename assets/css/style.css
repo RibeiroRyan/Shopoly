@@ -8,6 +8,10 @@ body {
     font-family: Courier, Arial, Helvetica, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     height: 100vh;
     width: 100%;
@@ -107,91 +111,159 @@ header {
     border-radius: 15px;
 }
 
+.h1-boutique {
+    margin: 10px;
+}
 
-@media screen and (max-width: 390px) {     /*Version Iphone 12 Pro */
-    .navbar {
-    padding: 0;
-    }
+.presentation-boutique {
+    margin: 10px;
+ 
+}
 
-    .nav-links {
-        top: 0;
-        left: 0;
-        position: absolute;
-        background-color: rgba(112, 112, 112, 0.199);
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        backdrop-filter: blur(7px);
-        margin-left: -100%;
-        transition: all 0.5s ease;
-    }
+.shop{
+    background-color: rgb(189, 125, 214);
+}
+
+.card-shop1 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    position: absolute;
+    left: 25px;
+    top: 700px;
+  }
+
+.card-shop1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     
-    .navbar .menu-boutons {
-        display: block;
-        position: absolute;
-        top: 40px;
-    }
+  }
 
-    .nav-links ul{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+.container {
+    padding: 2px 16px;
+  }
+
+.card-shop2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    position: absolute;
+    top: 700px;
+    left: 350px;
+  }
+
+.card-shop2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+ 
+.container {
+    padding: 2px 16px;
+  }
+
+.card-shop3 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    position: absolute;
+    top: 700px;
+    left: 675px;
+  }
+
+.card-shop3:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.container {
+    padding: 2px 16px;
+  }
+
+.card-shop4 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    position: absolute;
+    top: 700px;
+    left: 1000px;
+  }
+
+.card-shop4:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.container {
+    padding: 2px 16px;
+  }
+
+  .card-shop5 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    position: absolute;
+    left: 25px;
+    top: 1100px;
+  }
+
+.card-shop5:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     
-    .nav-links.mobile-menu {
-        margin-left: 0;
-    }
+  }
 
-    .navbar .nav-links ul li{
-        margin: 25px 0;
-        font-size: 1.6em;
-    }
+.container {
+    padding: 2px 16px;
+  }
 
-    .navbar .logo {
-        position: absolute;
-        top: 40px;
-        left: 30px;
-    }
-    
-    header {
-        height: 100vh;
-        max-width: 100%;
-        background-image: url(img/landscape.jpg);
-        background-size: 1950px;
-    }
+.card-shop6 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    position: absolute;
+    top: 0px;
+    left: 325px;
+  }
 
-    .produit1 {
-        display: block;
-        width: 150px;
-        position: absolute;
-        top: 360px;
-        left: 50px;
-    }
+.card-shop6:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
 
-    .text1 {
-        position: absolute;
-        right: 100px;
-        top: 100px;
-        margin: 0;
-        display: block;
-    }
+ 
+.container {
+    padding: 2px 16px;
+  }
 
-    .bouton-entrer {
-        position: relative;
-        width: fit-content;
-        display: block;
-        top: 570px;
-        color: rgb(255, 255, 255);
-        display: flex;
-        border: solid 0px;
-        padding: 10px;
-        left: 125px;
-        font-size: 2em;
-        background-color: rgba(75, 2, 32, 0.808);
-        border-radius: 5px;
-        
-    } 
+.card-shop7 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    position: absolute;
+    top: 0px;
+    left: 325px;
+  }
 
+.card-shop7:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.container {
+    padding: 2px 16px;
+  }
+
+.card-shop8 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    position: absolute;
+    top: 0px;
+    left: 325px;
+  }
+
+.card-shop8:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.container {
+    padding: 2px 16px;
+  } 
+
+.statue-produit{
+    color: red;
 }
