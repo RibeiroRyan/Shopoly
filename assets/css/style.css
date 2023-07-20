@@ -5,7 +5,7 @@
     list-style: none;
 }
 body {
-    font-family: Courier, Arial, Helvetica, sans-serif;
+    font-family: 'Lato';
 }
 
 html {
@@ -23,7 +23,7 @@ header {
     position: absolute;
     padding: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;     /*Bar de navigation*/
     width: 100%;
     box-sizing: border-box;
     align-items: center;
@@ -113,15 +113,22 @@ header {
 
 .h1-boutique {
     margin: 10px;
+    font-size: 2em;
+    position: absolute;
+    left: 50px;
+    top: 625px;
 }
 
 .presentation-boutique {
     margin: 10px;
- 
+    position: absolute;
+    top: 675px;
+    left: 75px;
+    font-style: normal;
 }
 
 .shop{
-    background-color: rgb(189, 125, 214);
+    background-color: rgb(255, 255, 255);
 }
 
 .card-shop1 {
@@ -129,12 +136,14 @@ header {
     transition: 0.3s;
     width: 300px;
     position: absolute;
-    left: 25px;
-    top: 700px;
+    left: 45px;
+    top: 760px;
+    border-radius: 25px;
+    font-style: italic;
   }
 
 .card-shop1:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.562);
     
   }
 
@@ -147,12 +156,14 @@ header {
     transition: 0.3s;
     width: 300px;
     position: absolute;
-    top: 700px;
-    left: 350px;
+    top: 760px;
+    left: 370px;
+    border-radius: 25px;
+    font-style: italic;
   }
 
 .card-shop2:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.562);
   }
 
  
@@ -161,16 +172,18 @@ header {
   }
 
 .card-shop3 {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.158);
     transition: 0.3s;
     width: 300px;
     position: absolute;
-    top: 700px;
-    left: 675px;
+    top: 760px;
+    left: 699px;
+    border-radius: 25px;
+    font-style: italic;
   }
 
 .card-shop3:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.562);
   }
 
 .container {
@@ -182,12 +195,14 @@ header {
     transition: 0.3s;
     width: 300px;
     position: absolute;
-    top: 700px;
-    left: 1000px;
+    top: 760px;
+    left: 1025px;
+    border-radius: 25px;
+    font-style: italic;
   }
 
 .card-shop4:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.562);
   }
 
 .container {
@@ -199,12 +214,14 @@ header {
     transition: 0.3s;
     width: 300px;
     position: absolute;
-    left: 25px;
-    top: 1100px;
+    left: 45px;
+    top: 1150px;
+    border-radius: 25px;
+    font-style: italic;
   }
 
 .card-shop5:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.562);
     
   }
 
@@ -217,12 +234,14 @@ header {
     transition: 0.3s;
     width: 300px;
     position: absolute;
-    top: 0px;
-    left: 325px;
+    top: 1150px;
+    left: 370px;
+    border-radius: 25px;
+    font-style: italic;
   }
 
 .card-shop6:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.562);
   }
 
  
@@ -235,12 +254,14 @@ header {
     transition: 0.3s;
     width: 300px;
     position: absolute;
-    top: 0px;
-    left: 325px;
+    top: 1150px;
+    left: 699px;
+    border-radius: 25px;
+    font-style: italic;
   }
 
 .card-shop7:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.562);;
   }
 
 .container {
@@ -252,12 +273,14 @@ header {
     transition: 0.3s;
     width: 300px;
     position: absolute;
-    top: 0px;
-    left: 325px;
+    top: 1150px;
+    left: 1025px;
+    border-radius: 25px;
+    font-style: italic;
   }
 
 .card-shop8:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.562);
   }
 
 .container {
