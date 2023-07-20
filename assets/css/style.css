@@ -10,7 +10,7 @@ body {
 
 header {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-image: url(img/landscape.jpg);
     background-size: 1400px;
 }
@@ -157,13 +157,16 @@ header {
     
     header {
         height: 100vh;
-        width: 100vw;
+        max-width: 100%;
         background-image: url(img/landscape.jpg);
         background-size: 1950px;
     }
 
     .produit1 {
-        display: none;
+        display: block;
+        width: 150px;
+        position: absolute;
+        top: 290px;
     }
 
     .text1 {
@@ -176,6 +179,21 @@ header {
     .bouton-entrer {
         position: absolute;
         top: 10px;
+    }
+
+    .bouton-entrer {
+        position: relative;
+        width: fit-content;
+        top: 500px;
+        color: rgb(255, 255, 255);
+        display: flex;
+        border: solid 0px;
+        padding: 10px;
+        left: 240px;
+        font-size: 2em;
+        background-color: rgba(75, 2, 32, 0.808);
+        border-radius: 5px;
+        align-items: center;
     }
 
 }
