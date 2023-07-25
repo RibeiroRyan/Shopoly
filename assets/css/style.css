@@ -12,12 +12,20 @@ html {
   scroll-behavior: smooth;
 }
 
-header {
+.accueil {
   height: 100vh;
   width: 100%;
   background-image: url(img/landscape.jpg);
   background-size: 1400px;
 }
+
+.contact {
+  height: 100vh;
+  width: 100%;
+  background-image: url(img/code.jpg);
+  background-size: 1400px;
+}
+
 
 .navbar {
   position: absolute;
